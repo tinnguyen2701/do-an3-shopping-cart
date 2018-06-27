@@ -1,0 +1,135 @@
+body{
+    width: 90%;
+    font-family: AvenirNextLTW01-Bold, Helvetica, Arial, sans-serif;
+    background-color: #FFFCF5;
+    margin: 0 auto;
+}
+
+.path{
+    /*background-color: aqua;
+    border: solid;*/
+    width: 45%;
+    float: left;
+}
+.status{
+    /*background-color:azure;
+    border: solid;*/
+    width: 50%;
+    float: right;
+}
+.head ul{
+    list-style-type: none;
+}
+.head ul li{
+    display: inline-block;
+}
+.path li{
+    font-size: 25px;
+}
+.path li:last-child{
+    color: gainsboro;
+}
+.status li:first-child{
+    color: gainsboro;
+}
+.status li:last-child{
+    color: dimgrey;
+    font-weight: 800;
+}
+.path ul{
+    padding-left: 0;
+}
+.status .item-icon  label{
+    font-family: "avenirnextltpro-bold", Helvetica, Arial, sans-serif;
+    background-image: url(https://i.imgur.com/MQIFivc.png);
+    background-repeat: no-repeat;
+    padding: 50% 15px;
+    background-size: 100%;
+}
+.container .grid-container{
+    display: grid;
+    grid-template-columns: 34% 22% 22% 22%;
+    grid-row-gap: 20px;
+    text-align: center;
+    
+}
+.item{
+    border-bottom: 1px solid;
+
+}
+.item1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: lightslategrey;
+}
+.item2 p, .item3 p, .item4 p{
+    font-size: 25px;
+}
+.item5 img{
+    width: 100%;
+}
+.item5 p, .item9 p{
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item5, .item9{
+    text-align: left;
+}
+.item6 p, .item8 p, .item10 p, .item12 p{
+    padding: 50% 46%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item7, .item11{
+    padding-top: 58%;
+       
+}
+.item7 input, .item11 input{
+    font-size: 20px;
+    width: 30%;
+    border-radius: 10px 10px;
+}
+.item7 span, .item11 span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.total{
+    float: right;
+}
+.total p{
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 42px;
+}
+.footer .button{
+    float: right;
+    
+}
+#check-out{
+    background-color: darkorange;
+    border-radius: 10px;
+}
+#check-out:hover{
+    background-color: dimgray;
+    color: whitesmoke;
+    transition-duration: 1s;
+}
+.footer span{
+    font-size: 25px;
+    font-weight: 600;
+}
+#select-from{
+    font-size: 25px;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 20px;
+}
+.footer{
+    padding-bottom: 2%;
+}
+.remove-float{
+    clear: both;
+}

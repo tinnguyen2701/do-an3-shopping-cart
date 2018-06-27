@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <title>Shopping Cart</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href ="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <div class="path">
+                    <ul>
+                        <li>Shop</li>
+                        <li><a href="#"><i class="fa fa-angle-right" style="font-size:25px"></i></a></li>
+                        <li>Cart</li>
+                    </ul>
+                </div>
+                <div class="status">
+                    <ul>
+                        <li>Oder status</li>
+                        <li>
+                            <div class="item-icon">
+                                <label>2</label>
+                            </div>
+                        </li>
+                        <li>Item</li>
+                    </ul>
+                </div> 
+                <br class="remove-float">
+            </div>
+            <br>
+            <div class="grid-container">
+                <div class="item1 item">Your Cart</div>
+                <div class="item2 item"><p>Total</p></div>
+                <div class="item3 item"><p>Quantify</p></div>
+                <div class="item4 item"><p>Price</p></div>
+                <div class="item5 item">
+                    <img src="image-1.jpg" alt="image-item"/>
+                    <p>Replacement Tips and Eraser For Pencil</p>
+                </div>
+                <div class="item6 item"><p>$7.95</p></div>
+                <div class="item7 item">
+                    <form>
+                        <span>1</span>
+                        <input type= "button" value="-" class="button-substract">
+                        <input type="button" value="+" class="button-add">
+                    </form>
+                </div>
+                <div class="item8 item"><p>$7.95</p></div>
+                <div class="item9 item">
+                    <img src="image-2.jpg" alt="image-item"/>
+                    <p>Pencil Walnut+Magnetic Snap</p>
+                </div>
+                <div class="item10 item"><p>$59.95</p></div>
+                <div class="item11 item">
+                    <form>
+                        <span>1</span>
+                        <input type= "button" value="-" class="button-substract">
+                        <input type="button" value="+" class="button-add">
+                    </form>
+                </div>
+                <div class="item12 item"><p>$59.95</p></div>
+            </div>
+            <div class="total">
+                <p>Total &nbsp; &nbsp; &nbsp; $67.90</p>
+            </div>
+            <br class="remove-float">
+            
+            <div class="footer">
+                <span>Shipping to </span>
+                <select id="select-from" name ="select-from">
+                    <option value="0">&nbsp;</option>
+                    <option value="1">Mỹ Thor</option>
+                    <option value="2">Tokyo Hot</option>
+                    <option value="3">VLXX</option>
+                </select>
+                <div class="button">
+                    <button id="check-out">
+                        <span>Checkout</span>
+                        <i class="fa fa-angle-right" style="font-size:25px"></i>
+                         
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
